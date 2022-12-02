@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+
+{% block header %}
+<section class="hero__container container">
+    <h1 class="hero__title">NEWS FEED</h1>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="knowledge">
+    <div class="knowledge__container container">
+        <div class="knowledege__texts">
+            <h2 class="subtitle" style="text-align: center; font-size: 50px;">The visits returned!</h2>
+            <p class="knowledge__paragraph">
+                Marta Arrieta and Samuel Zuleta, in the company of Professor Miguel Jimeno Paba, visited the IED La Magdalena school located in the city of Barranquilla. The objective of this visit was to carry out a pilot test on the mobile application of the project and to present the idea of ​this project to a group of selected students. If you want to know more about this experience, click on 'Read more'.
+            </p>
+        </div>
+        <figure class="" style=" max-width: 500px;">
+            <img src="{{ url_for('static', path='/images/exp13.jpeg') }}" class="knowledge__img">
+        </figure>
+
+        <a href="/experiences" class="cta">Read more</a>
+    </div>
+</section>
+<section class="container about">
+  <div class="knowledge__container container" >
+      <div class="knowledege__texts">
+          <h2 class="subtitle" style="text-align: center">Title of the New</h2>
+          <p class="knowledge__paragraph" style="text-align: left;">Brief introductory text or summary about the new. It has to impact the audience because they have to want to press the read more button. If you want to know more about this experience, click on 'Read more'. </p>
+      </div>
+
+      <figure class="knowledge__picture">
+          <img src="{{ url_for('static', path='/images/exp10.jpeg') }}" class="knowledge__img">
+      </figure>
+
+      <a href="/" class="cta">Read more</a>
+  </div>
+</section>
+<section class="knowledge">
+    <div class="knowledge__container container">
+        <div class="knowledege__texts">
+            <h2 class="subtitle" style="text-align: center">Title of the New</h2>
+            <p class="knowledge__paragraph">Brief introductory text or summary about the new. It has to impact the audience because they have to want to press the read more button. If you want to know more about this experience, click on 'Read more'. </p>
+        </div>
+
+        <figure class="knowledge__picture">
+            <img src="{{ url_for('static', path='/images/code.svg') }}" class="knowledge__img">
+        </figure>
+
+        <a href="/" class="cta">Read more</a>
+    </div>
+</section>
+<section class="container about">
+  <div class="knowledge__container container">
+      <div class="knowledege__texts">
+          <h2 class="subtitle" style="text-align: center">Title of the New</h2>
+          <p class="knowledge__paragraph"  style="text-align: left;">Brief introductory text or summary about the new. It has to impact the audience because they have to want to press the read more button. If you want to know more about this experience, click on 'Read more'. </p>
+      </div>
+
+      <figure class="knowledge__picture">
+          <img src="{{ url_for('static', path='/images/avatar-female.svg') }}" class="knowledge__img">
+      </figure>
+
+      <a href="/" class="cta">Read more</a>
+  </div>
+</section>
+<section class="knowledge">
+    <div class="knowledge__container container">
+        <div class="knowledege__texts">
+            <h2 class="subtitle" style="text-align: center">Title of the New</h2>
+            <p class="knowledge__paragraph">Brief introductory text or summary about the new. It has to impact the audience because they have to want to press the read more button. If you want to know more about this experience, click on 'Read more'. </p>
+        </div>
+
+        <figure class="knowledge__picture">
+            <img src="{{ url_for('static', path='/images/code.svg') }}" class="knowledge__img">
+        </figure>
+
+        <a href="/" class="cta">Read more</a>
+    </div>
+</section>
+{% endblock %}

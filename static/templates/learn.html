@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block header %}
+<section class="hero__container container">
+    <h1 class="hero__title" style="font-size: 95px;">How do I learn to program?</h1>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="questions container">
+
+    <h2 class="subtitle" style="padding-bottom: 50px">Video game programming manual</h2>
+    <embed
+    src="{{ url_for('static', path='/Manual Completo - CODY.pdf') }}"
+    type="application/pdf"
+    scrolling="auto"
+    height="800px"
+    width="1200px"
+    ></embed>
+</section>
+
+
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "layout.html" %}
+{% block header %}
+<section class="hero__container container">
+    <h1 class="hero__title" style="font-size: 100px">Welcome to EPICS project</h1>
+    <p class="hero__paragraph">Join us and have an amazing adventure</p>
+    <a href="/sal-isl" class="cta">Start</a>
+</section>
+{% endblock %}
+{% block content %}
+<main>
+    <section class="container about">
+        <h2 class="subtitle">EPICS Project features</h2>
+        <p class="about__paragraph">Our project is characterized by the following elements</p>
+
+        <div class="about__main">
+            <article class="about__icons">
+                <img src="{{ url_for('static', path='/images/shapes.svg') }}" class="about__icon">
+                <h3 class="about__title">Interactive learning</h3>
+                <p class="about__paragrah">You will be able to learn about vocabulary, grammar, listening comprehension, oral expression and, about the island of Salamanca, in a didactic and fun way.</p>
+            </article>
+
+            <article class="about__icons">
+                <img src="{{ url_for('static', path='/images/paint.svg') }}" class="about__icon">
+                <h3 class="about__title">Design according to learning</h3>
+                <p class="about__paragrah">
+                    The design of the project allows the user to feel comfortable with the topics to learn</p>
+            </article>
+
+            <article class="about__icons">
+                <img src="{{ url_for('static', path='/images/code.svg') }}" class="about__icon">
+                <h3 class="about__title">Easy to use</h3>
+                <p class="about__paragrah">The instructions and ways to handle the project are easy to understand for all types of users. It allows you to acquire all possible knowledge.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="knowledge">
+        <div class="knowledge__container container">
+            <div class="knowledege__texts">
+                <h2 class="subtitle">Try our app!</h2>
+                <p class="knowledge__paragraph">Are you ready for this adventure?!</p>
+                <p class="knowledge__paragraph">It's so important that you prepare yourself to learn everything you can...</p>
+                <p class="knowledge__paragraph">Look at the instructions below</p>
+                <a href="https://read.bookcreator.com/pSUx8mr7sPWRB8OlKPLWs1afUZw2/im-Licc1TLWiB2IKxVKLuQ" class="cta">Booklet</a>
+            </div>
+
+            <figure class="knowledge__picture">
+                <img src="{{ url_for('static', path='/images/salamanca.png') }}" class="knowledge__img">
+            </figure>
+        </div>
+    </section>
+
+    <section class="container about">
+        <h2 class="subtitle">Memories</h2>
+        <p class="about__paragraph">To watch photos about our experiences in EPICS project in all its trajectory, click here</p>
+        <a href="/experiences" class="cta" style="margin-top: 20px">Memories</a>
+
+    </section>
+
+
+
+
+</main>
+{% endblock %}

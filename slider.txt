@@ -1,0 +1,29 @@
+ <section class="testimony">
+        <div class="testimony__container container">
+            <img src="{{ url_for('static', path='/images/leftarrow.svg') }}" class="testimony__arrow" id="before">
+
+            <section class="testimony__body testimony__body--show" data-id="1">
+                <div class="testimony__texts">
+                    <h2 class="subtitle">My name is Jimeno Paba, <span class="testimony__course">CEO of Epics.</span></h2>
+                    <p class="testimony__review">Some info about the person</p>
+                </div>
+
+                <figure class="testimony__picture">
+                    <img src="{{ url_for('static', path='/images/face.jpg') }}" class="testimony__img">
+                </figure>
+            </section>
+
+            <section class="testimony__body" data-id="2">
+                <div class="testimony__texts">
+                    <h2 class="subtitle">My name is Karen Villalba Ramos, <span class="testimony__course">CEO of Epics.</span></h2>
+                    <p class="testimony__review">Some info about the person</p>
+                </div>
+
+                <figure class="testimony__picture">
+                    <img src="{{ url_for('static', path='/images/face2.jpg') }}" class="testimony__img">
+                </figure>
+            </section>
+
+            <img src="{{ url_for('static', path='/images/rightarrow.svg') }}" class="testimony__arrow" id="next">
+        </div>
+    </section>
