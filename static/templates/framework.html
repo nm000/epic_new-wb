@@ -1,49 +1,49 @@
 {% extends "layout.html" %}
 
 {% block header %}
-<section class="hero__container container">
-    <h1 class="hero__title" style="font-size: 120px;">Framework</h1>
+<section class="bgimg__container container">
+    <h1 class="bgimg__title" style="font-size: 120px;">Framework</h1>
 </section>
 {% endblock %}
 {% block content %}
-<section class="testimony">
-    <div class="testimony__container container">
-        <img src="{{ url_for('static', path='/images/leftarrow.svg') }}" class="testimony__arrow" id="before">
+<section class="goodslider">
+    <div class="goodslider__container container">
+        <img src="{{ url_for('static', path='/images/leftarrow.svg') }}" class="goodslider__arrow" id="before">
 
-        <section class="testimony__body testimony__body--show" data-id="1">
-            <div class="testimony__texts">
-                <h2 class="subtitle"><span class="testimony__course">Frameworks </span> used for the project</h2>
+        <section class="goodslider__body goodslider__body--show" data-id="1">
+            <div class="goodslider__texts">
+                <h2 class="subtitle"><span class="goodslider__course">Frameworks </span> used for the project</h2>
             </div>
 
-            <figure class="testimony__picture">
+            <figure class="goodslider__picture">
             </figure>
         </section>
 
-        <section class="testimony__body" data-id="2">
-            <div class="testimony__texts">
-                <p class="testimony__review" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates suscipit aut mollitia repellat nulla nesciunt ea recusandae necessitatibus. Quasi ipsum veniam fuga fugit vitae animi neque reprehenderit soluta quis?
+        <section class="goodslider__body" data-id="2">
+            <div class="goodslider__texts">
+                <p class="goodslider__review" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates suscipit aut mollitia repellat nulla nesciunt ea recusandae necessitatibus. Quasi ipsum veniam fuga fugit vitae animi neque reprehenderit soluta quis?
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
             </div>
-            <figure class="knowledge__picture">
-                <img src="{{ url_for('static', path='/images/avatar-female.svg') }}" class="knowledge__img">
+            <figure class="section1__picture">
+                <img src="{{ url_for('static', path='/images/avatar-female.svg') }}" class="section1__img">
             </figure>
         </section>
 
-        <section class="testimony__body" data-id="3">
-            <div class="testimony__texts">
-                <p class="testimony__review" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates suscipit aut mollitia repellat nulla nesciunt ea recusandae necessitatibus. Quasi ipsum veniam fuga fugit vitae animi neque reprehenderit soluta quis?</p>
+        <section class="goodslider__body" data-id="3">
+            <div class="goodslider__texts">
+                <p class="goodslider__review" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates suscipit aut mollitia repellat nulla nesciunt ea recusandae necessitatibus. Quasi ipsum veniam fuga fugit vitae animi neque reprehenderit soluta quis?</p>
             </div>
         </section>
 
-        <section class="testimony__body" data-id="4">
-            <div class="testimony__texts">
-                <p class="testimony__review" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates suscipit aut mollitia repellat nulla nesciunt ea recusandae necessitatibus. Quasi ipsum veniam fuga fugit vitae animi neque reprehenderit soluta quis?</p>
+        <section class="goodslider__body" data-id="4">
+            <div class="goodslider__texts">
+                <p class="goodslider__review" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates suscipit aut mollitia repellat nulla nesciunt ea recusandae necessitatibus. Quasi ipsum veniam fuga fugit vitae animi neque reprehenderit soluta quis?</p>
             </div>
         </section>
-        <img src="{{ url_for('static', path='/images/rightarrow.svg') }}" class="testimony__arrow" id="next">
+        <img src="{{ url_for('static', path='/images/rightarrow.svg') }}" class="goodslider__arrow" id="next">
     </div>
 </section>
 {% endblock %}

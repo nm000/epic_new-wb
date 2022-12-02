@@ -17,7 +17,7 @@ body {
     padding: var(--padding-container);
 }
 
-.hero {
+.bgimg {
     width: 100%;
     height: 50vh;
     min-height: 600px;
@@ -28,7 +28,7 @@ body {
     color: #fff;
 }
 
-.hero::before {
+.bgimg::before {
     content: "";
     position: absolute;
     top: 0;
@@ -41,7 +41,7 @@ body {
     z-index: -1;
 }
 
-.hero2 {
+.bgimg2 {
     width: 100%;
     height: 100vh;
     min-height: 600px;
@@ -52,7 +52,7 @@ body {
     color: #fff;
 }
 
-.hero2::before {
+.bgimg2::before {
     content: "";
     position: absolute;
     top: 0;
@@ -114,9 +114,9 @@ body {
 }
 
 
-/* Hero container */
+/* bgimg container */
 
-.hero__container {
+.bgimg__container {
     max-width: 800px;
     --padding-container: 0;
     display: grid;
@@ -127,11 +127,11 @@ body {
     text-align: center;
 }
 
-.hero__title {
+.bgimg__title {
     font-size: 150px;
 }
 
-.hero__paragraph {
+.bgimg__paragraph {
     font-size: 30px;
 }
 
@@ -152,9 +152,9 @@ body {
 /* Memories */
 
 
-/* About */
+/* section2 */
 
-.about {
+.section2 {
     text-align: center;
     font-size: 20px;
     margin: 10px auto;
@@ -167,11 +167,11 @@ body {
 }
 
 
-.about__paragraph {
+.section2__paragraph {
     line-height: 1.7;
 }
 
-.about__main {
+.section2__main {
     padding-top: 80px;
     display: grid;
     width: 90%;
@@ -182,7 +182,7 @@ body {
 }
 
 
-.about__icons {
+.section2__icons {
     display: grid;
     gap: 10px;
     justify-items: center;
@@ -191,7 +191,7 @@ body {
     margin: 0 auto;
 }
 
-.about__icon {
+.section2__icon {
     width: 40px;
 }
 
@@ -216,9 +216,9 @@ body {
 }
 
 
-/* Knowledge */
+/* section1 */
 
-.knowledge {
+.section1 {
     background-color: #e5e5f7;
     background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
     background-size: 20px 20px;
@@ -226,35 +226,35 @@ body {
     overflow: hidden;
 }
 
-.knowledge__container{
+.section1__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     align-items: center;
 }
 
-.knowledge__picture{
+.section1__picture{
     max-width: 350px;
 }
 
-.knowledge__paragraph{
+.section1__paragraph{
     line-height: 1.7;
     margin-bottom: 15px;
     font-size: 20px;
 }
 
-.knowledge__img{
+.section1__img{
     width: 100%;
     display: block;
 }
 
-/* price */
+/* section3 */
 
-.price{
+.section3{
     text-align: center;
 }
 
-.price__table{
+.section3__table{
     padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
@@ -263,45 +263,45 @@ body {
     align-items: center;
 }
 
-.price__element{
+.section3__element{
     background-color: #e5e5f7;
     text-align: center;
     border-radius: 10px;
     width: 330px;
     padding: 40px;
     --color-plan: #696871;
-    --color-price: #1D293F;
+    --color-section3: #1D293F;
     --bg-cta: #fff;
     --color-cta: #5454D4;
     --color-items: #696871;
 }
 
-.price__element--best{
+.section3__element--best{
     text-align: center;
     border-radius: 10px;
     width: 330px;
     padding: 40px;
     background-color: #FF7143;
     --color-plan: rgb(255 255 255 / 75%);
-    --color-price: #fff;
+    --color-section3: #fff;
     --bg-cta: #9F3919;
     --color-cta: #FFF;
     --color-items: #fff;
 }
 
 
-.price__name{
+.section3__name{
     color: var(--color-plan);
     margin-bottom: 15px;
     font-weight: 300;
 }
 
-.price__price{
+.section3__section3{
     font-size: 2.5rem;
-    color: var(--color-price);
+    color: var(--color-section3);
 }
 
-.price__items{
+.section3__items{
     margin-top: 35px;
     display: grid;
     gap: 1em;
@@ -311,7 +311,7 @@ body {
     color: var(--color-items);
 }
 
-.price__cta{
+.section3__cta{
     display: block;
     padding: 20px 0;
     border-radius: 10px;
@@ -322,20 +322,20 @@ body {
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
 
-/* Testimony */
+/* goodslider */
 
-.testimony{
+.goodslider{
     background-color: #e5e5f7;
 }
 
-.testimony__container{
+.goodslider__container{
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     gap: 1em;
     align-items: center;
 }
 
-.testimony__body{
+.goodslider__body{
     display: grid;
     grid-template-columns: 1fr max-content;
     justify-content: space-between;
@@ -348,13 +348,13 @@ body {
 }
 
 
-.testimony__body--show{
+.goodslider__body--show{
     pointer-events: unset;
     opacity: 1;
     transition: opacity 1.5s ease-in-out;
 }
 
-.testimony__img{
+.goodslider__img{
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -362,18 +362,18 @@ body {
     object-position: 50% 30%;
 }
 
-.testimony__texts{
+.goodslider__texts{
     max-width: 700px;
 }
 
-.testimony__course{
+.goodslider__course{
     background-color: royalblue;
     color: #fff;
     display: inline-block;
     padding: 5px;
 }
 
-.testimony__arrow{
+.goodslider__arrow{
     width: 90%;
     cursor: pointer;
 }
@@ -668,37 +668,37 @@ body {
         cursor: pointer;
     }
 
-    .hero__title{
+    .bgimg__title{
         font-size: 2.5rem;
     }
 
 
-    .about__main{
+    .section2__main{
         gap: 2em;
     }
 
-    .about__icons:last-of-type{
+    .section2__icons:last-of-type{
         grid-column: 1/-1;
     }
 
 
-    .knowledge__container{
+    .section1__container{
         grid-template-columns: 1fr;
         grid-template-rows: max-content 1fr;
         gap: 3em;
         text-align: center;
     }
 
-    .knowledge__picture{
+    .section1__picture{
         grid-row: 1/2;
         justify-self: center;
     }
 
-    .testimony__container{
+    .goodslider__container{
         grid-template-columns: 30px 1fr 30px;
     }
 
-    .testimony__body{
+    .goodslider__body{
         grid-template-columns: 1fr;
         grid-template-rows: max-content max-content;
         gap: 3em;
@@ -706,7 +706,7 @@ body {
     }
 
 
-    .testimony__img{
+    .goodslider__img{
         width: 200px;
         height: 200px;
 
@@ -743,11 +743,11 @@ body {
 }
 
 @media (max-width:600px){
-    .hero__title{
+    .bgimg__title{
         font-size: 2rem;
     }
 
-    .hero__paragraph{
+    .bgimg__paragraph{
         font-size: 1rem;
     }
 
@@ -755,33 +755,33 @@ body {
         font-size: 1.8rem;
     }
 
-    .price__element{
+    .section3__element{
         width: 90%;
     }
 
-    .price__element--best{
+    .section3__element--best{
         width: 90%;
         /* padding: 40px; */
     }
 
-    .price__price{
+    .section3__section3{
         font-size: 2rem;
     }
 
-    .testimony{
+    .goodslider{
         --padding-container: 60px 0;
     }
 
-    .testimony__container{
+    .goodslider__container{
         grid-template-columns: 28px 1fr 28px;
         gap: .9em;
     }
 
-    .testimony__arrow{
+    .goodslider__arrow{
         width: 100%;
     }
 
-    .testimony__course{
+    .goodslider__course{
         margin-top: 15px;
     }
 

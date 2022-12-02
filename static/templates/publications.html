@@ -1,50 +1,50 @@
 {% extends "layout.html" %}
 
 {% block header %}
-<section class="hero__container container">
-    <h1 class="hero__title" style="font-size: 100px">PUBLICATIONS FEED</h1>
+<section class="bgimg__container container">
+    <h1 class="bgimg__title" style="font-size: 100px">PUBLICATIONS FEED</h1>
 </section>
 {% endblock %}
 
 {% block content %}
-<section class="knowledge">
-    <div class="knowledge__container container">
+<section class="section1">
+    <div class="section1__container container">
         <div class="knowledege__texts">
             <h2 class="subtitle" style="text-align: center; font-size: 50px;">We have a mobile app!</h2>
-            <p class="knowledge__paragraph" style="text-align: center;">
+            <p class="section1__paragraph" style="text-align: center;">
                 Text about the mobile app.
             </p>
         </div>
         <figure class="" style=" max-width: 300px; margin-right: 50px">
-            <img src="https://user-images.githubusercontent.com/61607058/172985993-bbbaa97c-27fc-4f72-93c8-3b50771a3da9.gif" class="knowledge__img" style="margin-left: 40%">
+            <img src="https://user-images.githubusercontent.com/61607058/172985993-bbbaa97c-27fc-4f72-93c8-3b50771a3da9.gif" class="section1__img" style="margin-left: 40%">
         </figure>
 
         <a href="https://github.com/Proyecto-Final-EPICS/PlayAndLearn" class="cta">GO</a>
     </div>
 </section>
-<section class="container about">
-  <div class="knowledge__container container" >
+<section class="container section2">
+  <div class="section1__container container" >
       <div class="knowledege__texts">
           <h2 class="subtitle" style="text-align: center">We have a web page!</h2>
-          <p class="knowledge__paragraph" style="text-align: center;">Text about web page.</p>
+          <p class="section1__paragraph" style="text-align: center;">Text about web page.</p>
       </div>
 
-      <figure class="knowledge__picture">
-          <img src="" class="knowledge__img">
+      <figure class="section1__picture">
+          <img src="" class="section1__img">
       </figure>
 
       <a href="/" class="cta">GO</a>
   </div>
 </section>
-<section class="knowledge">
-    <div class="knowledge__container container">
+<section class="section1">
+    <div class="section1__container container">
         <div class="knowledege__texts">
             <h2 class="subtitle" style="text-align: center">We have a new version of our web page!</h2>
-            <p class="knowledge__paragraph">Created by students of Univeridad del Norte, who are memberships of this project. Go to visit our new website! </p>
+            <p class="section1__paragraph">Created by students of Univeridad del Norte, who are memberships of this project. Go to visit our new website! </p>
         </div>
 
-        <figure class="knowledge__picture">
-            <img src="{{ url_for('static', path='/images/index-wb.png') }}" class="knowledge__img" style="margin-left: 30%">
+        <figure class="section1__picture">
+            <img src="{{ url_for('static', path='/images/index-wb.png') }}" class="section1__img" style="margin-left: 30%">
         </figure>
 
         <a href="/" class="cta">GO</a>

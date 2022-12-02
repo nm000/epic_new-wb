@@ -63,7 +63,7 @@ def read_task1(request: Request): #El nombre de la función no importa
 
     Name2 = ["Introducing animals from Salamanca Island"]
     Functional2 = ["Introducing self and other people, Exchanging personal info, Asking for and giving spelling", "Subject pronouns, Present tense be, Contractions, Wh-questions, A/An"]
-    Vocabulary2 = ["Osprey, Hummingbird, Sea Bass, Alligator, Lizard, Fox, Otter, Seagull, Heron, Duck, Monkey, Manatee, Ocelot"]
+    Vocabulary2 = ["Osprey, Hummingbird, Sea Bass, Alligator, Lizard, Fox, Otter, Seagull, bgimgn, Duck, Monkey, Manatee, Ocelot"]
     Reading2 = ["Salamanca Island Poster"]
     Listening2 = ["Animal sounds in the wild"]
     Pronunciation2 = ["Rising and falling intonation"]

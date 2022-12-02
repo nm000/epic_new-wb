@@ -1,33 +1,33 @@
 {% extends "layout.html" %}
 
 {% block header %}
-<section class="hero__container container">
-    <h1 class="hero__title">FAQS</h1>
+<section class="bgimg__container container">
+    <h1 class="bgimg__title">FAQS</h1>
 </section>
 {% endblock %}
 {% block content %}
-<section class="testimony">
-    <div class="testimony__container container">
-        <img src="{{ url_for('static', path='/images/leftarrow.svg') }}" class="testimony__arrow" id="before">
+<section class="goodslider">
+    <div class="goodslider__container container">
+        <img src="{{ url_for('static', path='/images/leftarrow.svg') }}" class="goodslider__arrow" id="before">
 
-        <section class="testimony__body testimony__body--show" data-id="1">
-            <div class="testimony__texts">
-                <h2 class="subtitle">Frequently Asked <span class="testimony__course">Questions </span></h2>
+        <section class="goodslider__body goodslider__body--show" data-id="1">
+            <div class="goodslider__texts">
+                <h2 class="subtitle">Frequently Asked <span class="goodslider__course">Questions </span></h2>
             </div>
 
-            <figure class="testimony__picture">
+            <figure class="goodslider__picture">
             </figure>
         </section>
 
-        <section class="testimony__body" data-id="2">
-            <div class="testimony__texts">
-                <h2 class="subtitle">Who <span class="testimony__course">manages</span> this project?</h2>
-                <p class="testimony__review" style="padding-top: 20px">This project is managed by professors and students of Uninorte, in association with IEEE.</p>
-                <p class="testimony_review">If you want to know more about our work team, please go to our link 'Contact Us'</p>
+        <section class="goodslider__body" data-id="2">
+            <div class="goodslider__texts">
+                <h2 class="subtitle">Who <span class="goodslider__course">manages</span> this project?</h2>
+                <p class="goodslider__review" style="padding-top: 20px">This project is managed by professors and students of Uninorte, in association with IEEE.</p>
+                <p class="goodslider_review">If you want to know more about our work team, please go to our link 'Contact Us'</p>
             </div>
         </section>
 
-        <img src="{{ url_for('static', path='/images/rightarrow.svg') }}" class="testimony__arrow" id="next">
+        <img src="{{ url_for('static', path='/images/rightarrow.svg') }}" class="goodslider__arrow" id="next">
     </div>
 </section>
 {% endblock %}
