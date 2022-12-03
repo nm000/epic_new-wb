@@ -1,7 +1,7 @@
 # Epics Project Website
  
 To access the website,
-URL: https://epics.azurewebsites.net
+URL: https://eyelearn.azurewebsites.net
 
 This project uses Python 3.10, with the FastApi module. 
 
