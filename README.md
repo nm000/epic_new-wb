@@ -1,5 +1,7 @@
 # Epics Project Website
  
+URL: https://epics.azurewebsites.net
+
 This project uses Python 3.10, with the FastApi module. 
 
 This website was developed by the following students for the EPICS project. If you have questions about its operation or modification, you can contact the attached emails.
